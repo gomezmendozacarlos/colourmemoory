@@ -1,0 +1,27 @@
+install node.js
+install mongo db
+console> go to folders project
+
+npm install
+console> go to install folder MongoDB>server>3.0>bin>mongod
+console> gulp 
+
+or install all the dependencies
+
+npm install express --save
+npm install gulp --save
+npm install gulp -g 
+npm install gulp-nodemon --save
+npm install body-parser --save
+npm install mongoose --save
+
+console> go to install folder MongoDB>server>3.0>bin>mongod
+
+
+
+
+
+
+
+
+

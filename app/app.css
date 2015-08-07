@@ -1,0 +1,180 @@
+body {
+	background-color: #fff;
+	font-family: arial;
+}
+	.gameContainer {
+		width: 720px;
+		height: 576px;
+		background-color: #B4C68B;
+		margin: auto auto;
+		border-radius: 10px;
+	}
+
+		.select {            
+            background-color: #7A9047;
+            border-radius: 5px 0;
+	    }
+
+	/*--Game--*/
+
+	.game {
+		float:left;		
+		z-index: 10;
+		background-color: #9AB262; 
+		margin: 40px auto auto 30px;
+		border-radius: 10px 0 0 10px;
+	}
+
+		.tablero {
+		    width: 400px;
+		    height: 500px;   		 
+	    }
+
+	/*--Info--*/
+
+	.info {
+		float:right;
+		width: 250px;
+		height: 500px;
+		margin: 40px 30px auto auto;
+		background-color: #9AB262;
+		border-radius: 0 10px 10px 0;
+	}
+
+	    .logo {
+	    	width: 200px;
+		    height: 80px;	
+		    background-image: url("asset/logo.png");
+		    margin: auto auto;
+	    }
+
+	    .stadistics {
+	    	background-color: #B4C68B;
+	    	width: 230px;
+		    height: 65px;
+		    margin:10px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+	    }
+	        .stadisticsTbl {
+	        	width: 210px;	        	
+		    	margin-left: 10px;
+	        }
+
+	        .stadisticsTbl td {	        	
+	        	width: 50%;
+	        	text-align: center;
+	        }
+	    
+	    .btnRestart {
+	    	margin-top:275px;	    	
+            width: 100%;
+            height: 20px;
+            padding:15px 70px;
+	    }
+
+	/*---Cards----*/
+
+	.cardOrange {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour8.gif");
+		margin: auto auto;	
+	} 
+
+	.cardPink {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour7.gif");
+		margin: auto auto;	
+	}
+
+	.cardPurple {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour6.gif");
+		margin: auto auto;	
+	} 
+
+	.cardBlue {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour5.gif");
+		margin: auto auto;	
+	} 
+
+	.cardTurq{
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour4.gif");
+		margin: auto auto;	
+	} 
+
+	.cardGreen {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour3.gif");
+		margin: auto auto;	
+	} 
+
+	.cardYellow {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour2.gif");
+		margin: auto auto;	
+	} 
+
+	.cardRed {
+		width: 80px;
+		height: 100px;	
+		background-image: url("asset/colour1.gif");
+		margin: auto auto;	
+	}
+
+	.cardClose {
+	    width: 80px;
+		height: 100px;	
+		background-image: url("asset/card_bg.gif");
+		margin: auto auto;
+	}
+
+	.removedCard {
+		width: 80px;
+		height: 100px;	
+		margin: auto auto;	
+	} 
+
+.none {
+	display:none;
+}
+.promt {
+	display:block;
+	width: 720px;
+	height: 576px;
+	background-color: #fff;
+	opacity: 0.4;
+	z-index: 100;
+	position: absolute;
+}
+	
+	.lightbox {
+		width: 400px;
+		height: 200px;
+		margin:160px 160px ;
+		border:10px solid #9AB262;
+		border-radius: 10px;
+		opacity: 1;
+		background-color: #fff;
+		color: #000;
+		z-index: 200;
+		position: absolute;
+		padding:20px;
+	}
+
+		.cancelBtn {
+			float:right;
+			margin-right: 10px;
+		}
+
+
+

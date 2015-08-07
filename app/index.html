@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Colour Memory</title>
+		<link rel="stylesheet" type="text/css" href="app.css">		
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');</script>
+	</head>
+
+	<body>
+		<h1 onClick="dashboard.gameOver()">game over</h1>
+		<h1 onClick="dashboard.saveGame()">save</h1>
+		<div class="gameContainer">
+			<div id="promt" class="none"></div>
+			<div id="lightbox" class="none"></div>
+			<article class="game">
+				<table class="tablero" cellpadding="0" cellspacing="0">
+					<tr>
+						<td id="14">
+							<div data-card="1" class="cardClose"></div>
+						</td>
+						<td id="24">
+							<div data-card="2" class="cardClose"></div>
+						</td>
+						<td id="34">
+							<div data-card="3" class="cardClose"></div>
+						</td>
+						<td id="44">
+							<div data-card="4" class="cardClose"></div>
+						</td>
+					</tr>
+					<tr>
+						<td id="13">
+							<div data-card="5" class="cardClose"></div>
+						</td>
+						<td id="23">
+							<div data-card="6" class="cardClose"></div>
+						</td>
+						<td id="33">
+							<div data-card="7" class="cardClose"></div>
+						</td>
+						<td id="43">
+							<div data-card="8" class="cardClose"></div>
+						</td>
+					</tr>
+					<tr>
+						<td id="12">
+							<div data-card="9" class="cardClose"></div>
+						</td>
+						<td id="22">
+							<div data-card="10" class="cardClose"></div>
+						</td>
+						<td id="32">
+							<div data-card="11" class="cardClose"></div>
+						</td>
+						<td id="42">
+							<div data-card="12" class="cardClose"></div>
+						</td>
+					</tr>
+					<tr>
+						<td id="11">
+							<div data-card="13" class="cardClose"></div>
+						</td>
+						<td id="21">
+							<div data-card="14" class="cardClose"></div>
+						</td>
+						<td id="31">
+							<div data-card="15" class="cardClose"></div>
+						</td>
+						<td id="41">
+							<div data-card="16" class="cardClose"></div>
+						</td>
+					</tr>
+				</table>
+			</article>
+			<aside class="info">
+				<div class="logo"></div>
+				<div class="stadistics">
+					<table class="stadisticsTbl" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>TURNS :</td>
+							<td><strong id="count">0</strong></td>
+						</tr>
+						<tr>
+							<td>FAILS :</td>
+							<td><strong id="fails">0</strong></td>
+						</tr>
+						<tr>
+							<td>PAIRS :</td>
+							<td><strong id="pairs">0</strong></td>
+						</tr>
+					</table>
+				</div>
+				<div id="51">
+					<div class="btnRestart">R E S T A R T</div>
+				</div>
+				
+			</aside>
+		</div>
+		
+	</body>
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript" src="tablero.js"></script>
+	<script type="text/javascript" src="pointer.js"></script>
+</html>
